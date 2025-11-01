@@ -1,0 +1,5 @@
+Dòng 1: Xin chào Việt Nam
+Dòng 2: Ruby Programming
+Dòng 3: IO.foreach example
+
+Dòng 4: Học lập trình Ruby
