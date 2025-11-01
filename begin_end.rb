@@ -3,6 +3,6 @@ END{
 	puts " This is a comment,2"
 }
 BEGIN{
-	puts " This is a commetnt,3"
+	puts " This is a comment,3"
 }
-# chu y END va BEGIN deu viet hoa
+# note: END and BEGIN must be written in uppercase

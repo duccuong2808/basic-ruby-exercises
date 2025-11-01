@@ -7,7 +7,7 @@ class Customer
 	def display_details()
 		puts "Customer id #@cust_id"
 		puts "Customer name #@cust_name"
-		puts "Customer address #@addr"
+		puts "Customer address #@cust_addr"
 	end
 end
 #Create Object

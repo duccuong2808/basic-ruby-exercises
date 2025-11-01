@@ -1,5 +1,5 @@
 class Polygon
-	@@side = 10
+	@@sides = 10
 	def self.sides
 		@@sides
 		

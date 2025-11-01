@@ -1,4 +1,5 @@
-IO.foreach("/home/ndc/ruby/test.txt"){|block| puts block}
+# Example: IO.foreach("test.txt"){|block| puts block}
+# Uncomment and provide a valid file path to test IO.foreach
 
 
 class Post
@@ -37,7 +38,7 @@ pst.class
 
 
 
-print_title Post
+class Post
   def print_author
     puts "The author of all posts is Jimmy"
   end

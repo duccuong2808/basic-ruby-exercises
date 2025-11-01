@@ -1,6 +1,6 @@
 require 'tmpdir'
 tmpfilename = File.join(Dir.tmpdir,"tingtong")
 tmpfilename = File.new(tmpfilename, "w")
-tmpfilename.puts("Xin chao moi nguoi")
+tmpfilename.puts("Hello everyone")
 tmpfilename.close()
-File.delete(tmpfilename	)
+File.delete(tmpfilename)

@@ -1,4 +1,15 @@
-for i in 1..5
-   retry if  i > 2
-   puts "Value of local variable is #{i}"
+# Note: retry can only be used inside a rescue block
+# This example demonstrates its proper usage
+
+begin
+  attempts ||= 0
+  attempts += 1
+  puts "Attempt #{attempts}"
+
+  raise "Error occurred" if attempts < 3
+
+  puts "Success after #{attempts} attempts!"
+rescue
+  retry if attempts < 3
+  puts "Failed after 3 attempts"
 end

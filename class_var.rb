@@ -1,11 +1,11 @@
 class Customer
-	@@no_of_customers=0 				#class variable duoc khoi tao
-	def initialize(id,name,addr)		#instance variable bat dau bang @
+	@@no_of_customers=0 				# class variable is initialized
+	def initialize(id,name,addr)		# instance variables start with @
 		@cust_id = id
 		@cust_name = name
 		@cust_addr = addr
 	end
-	def display_details()				#funcion trong class Customer
+	def display_details()				# function in class Customer
 		puts "Customer id #@cust_id"	#
 		puts "Customer name #@cust_name"
 		puts "Customer address #@cust_addr"
