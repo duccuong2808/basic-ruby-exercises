@@ -8,7 +8,7 @@
 # - Chuỗi proc calls
 
 def time_proc(var)
-	return Proc.new{|n| n*var}
+	return Proc.new {|n| n * var}
 end
 
 time1 = time_proc(4)	# 4 là giá trị var (hệ số nhân)
