@@ -1,17 +1,17 @@
-# Difficulty: 🟡 Intermediate
-# Topic: Procs and Closures
+# Độ khó: 🟡 Intermediate
+# Chủ đề: Procs và Closures
 
-# This example demonstrates:
-# - Creating Proc objects
-# - Closures (procs remember their context)
-# - Calling procs with .call()
-# - Chaining proc calls
+# Ví dụ này minh họa:
+# - Tạo Proc objects
+# - Closures (procs ghi nhớ context của chúng)
+# - Gọi procs với .call()
+# - Chuỗi proc calls
 
 def time_proc(var)
 	return Proc.new{|n| n*var}
 end
 
-time1 = time_proc(4)	# 4 is the value of var (multiplier)
+time1 = time_proc(4)	# 4 là giá trị var (hệ số nhân)
 time2 = time_proc(5)
 time3 = time_proc(6)
 
@@ -25,13 +25,14 @@ puts x2
 puts x3
 puts x4
 
-# Expected Output:
+# Kết quả mong đợi:
 # 40
 # 60
 # 240
 # 1080
 
-# EXERCISE: Try this!
-# 1. Create a proc that adds a number (instead of multiplying)
-# 2. Create a proc that squares a number
-# 3. Chain them together: add 5, then square the result
+# BÀI TẬP: Thử làm nhé!
+# 1. Tạo một proc cộng số (thay vì nhân)
+# 2. Tạo một proc bình phương một số
+# 3. Kết hợp chúng lại: cộng 5, sau đó bình phương kết quả
+# EOF

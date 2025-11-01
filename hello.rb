@@ -1,25 +1,26 @@
-# Difficulty: 🟢 Beginner
-# Topic: Functions and Output
+# Độ khó: 🟢 Beginner
+# Chủ đề: Functions và Output
 
-# This example demonstrates:
-# - Defining a method/function
-# - Using puts for output
-# - Multi-line comments with =begin...=end
+# Ví dụ này minh họa:
+# - Định nghĩa một method/function
+# - Sử dụng puts để in ra màn hình
+# - Multi-line comments với =begin...=end
 
 def saysomething
 	puts("Hello")
 	=begin
-	This is a comment
+	Đây là một comment
 	=end
 end
 
-# Call the function
+# Gọi function
 saysomething
 
-# Expected Output:
+# Kết quả mong đợi:
 # Hello
 
-# EXERCISE: Try this!
-# 1. Create a new function called 'greet' that takes a name parameter
-# 2. Have it print "Hello, [name]!"
-# 3. Call your function with your own name
+# BÀI TẬP: Thử làm nhé!
+# 1. Tạo một function mới tên 'greet' nhận tham số name
+# 2. In ra "Xin chào, [name]!"
+# 3. Gọi function với tên của bạn
+# EOF

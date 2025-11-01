@@ -12,3 +12,4 @@ end
 cust1=Customer.new("1","John","Wisdom Apartment,Ludhiya")
 cust2=Customer.new("2","Poul","New Empire road,Khandala")
 puts cust1.get_id
+# EOF

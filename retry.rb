@@ -1,15 +1,16 @@
-# Note: retry can only be used inside a rescue block
-# This example demonstrates its proper usage
+# Lưu ý: retry chỉ có thể được sử dụng bên trong rescue block
+# Ví dụ này minh họa cách sử dụng đúng
 
 begin
   attempts ||= 0
   attempts += 1
-  puts "Attempt #{attempts}"
+  puts "Lần thử #{attempts}"
 
-  raise "Error occurred" if attempts < 3
+  raise "Lỗi xảy ra" if attempts < 3
 
-  puts "Success after #{attempts} attempts!"
+  puts "Thành công sau #{attempts} lần thử!"
 rescue
   retry if attempts < 3
-  puts "Failed after 3 attempts"
+  puts "Thất bại sau 3 lần thử"
 end
+# EOF

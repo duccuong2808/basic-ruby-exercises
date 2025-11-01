@@ -14,8 +14,9 @@ def global_method
 
 end
 method_local
-print("localvar retains its original value: ")
+print("localvar vẫn giữ nguyên giá trị: ")
 puts(localvar)
 global_method
-print("global value has been changed: ")
+print("giá trị của global bị thay đổi: ")
 puts($global)
+# EOF

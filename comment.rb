@@ -1,8 +1,9 @@
 #!/usr/bin/ruby -w
 
-puts "Vietnam Ho Chi Minh"
+puts "Việt Nam Hồ Chí Minh"
 
 =begin
-This is a multiline comment and can span as many lines as you
-like. But =begin and =end should come in the first line only. 
+Đây là một multiline comment và có thể mở rộng nhiều dòng như bạn
+muốn. Nhưng =begin và =end phải ở dòng đầu tiên.
 =end
+# EOF

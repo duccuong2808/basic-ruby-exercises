@@ -1,13 +1,14 @@
 $result = 90
 case $result
-	when 0..40 
+	when 0..40
 		puts "F"
-	when 41..60 
+	when 41..60
 		puts "D"
-	when 61..80 
+	when 61..80
 		puts "C"
-	when 81..90 
+	when 81..90
 		puts "B"
-	else 
-		puts "A"	
+	else
+		puts "A"
 end
+# EOF

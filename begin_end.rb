@@ -5,4 +5,5 @@ END{
 BEGIN{
 	puts " This is a comment,3"
 }
-# note: END and BEGIN must be written in uppercase
+# chú ý END và BEGIN đều viết hoa
+# EOF

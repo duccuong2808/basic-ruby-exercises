@@ -1,25 +1,26 @@
-# Difficulty: 🟡 Intermediate
-# Topic: Blocks and Yield
+# Độ khó: 🟡 Intermediate
+# Chủ đề: Blocks và Yield
 
-# This example demonstrates:
-# - Using yield to pass control to a block
-# - Blocks with parameters
-# - Multiple yields in one method
+# Ví dụ này minh họa:
+# - Sử dụng yield để chuyển điều khiển cho block
+# - Blocks với tham số
+# - Nhiều yields trong một method
 
 def greet_message
 	yield 5
-	puts("Hello new day")
+	puts("Xin chào ngày mới")
 	yield 100
 end
 
-greet_message {|i| puts "Vietnam Ho Chi Minh #{i}"}
+greet_message {|i| puts "Việt Nam Hồ Chí Minh #{i}"}
 
-# Expected Output:
-# Vietnam Ho Chi Minh 5
-# Hello new day
-# Vietnam Ho Chi Minh 100
+# Kết quả mong đợi:
+# Việt Nam Hồ Chí Minh 5
+# Xin chào ngày mới
+# Việt Nam Hồ Chí Minh 100
 
-# EXERCISE: Try this!
-# 1. Create a method 'repeat_action' that yields 3 times
-# 2. Pass different values each time (1, 2, 3)
-# 3. Call it with a block that prints "Iteration: [number]"
+# BÀI TẬP: Thử làm nhé!
+# 1. Tạo một method 'repeat_action' yield 3 lần
+# 2. Truyền các giá trị khác nhau mỗi lần (1, 2, 3)
+# 3. Gọi nó với một block in ra "Lần lặp: [số]"
+# EOF

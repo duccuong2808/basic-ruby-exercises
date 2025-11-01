@@ -1,4 +1,5 @@
 foo = 42
-puts "#{defined? foo}"    # => "local-variable" # use defined to determine if a variable exists
+puts "#{defined? foo}"    # => "local-variable" # sử dụng defined để xác định loại biến tồn tại
 defined? $_     # => "global-variable"
 defined? bar    # => nil (undefined)
+# EOF

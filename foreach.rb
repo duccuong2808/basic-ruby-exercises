@@ -1,5 +1,5 @@
-# Example: IO.foreach("test.txt"){|block| puts block}
-# Uncomment and provide a valid file path to test IO.foreach
+# Ví dụ: IO.foreach("test.txt"){|block| puts block}
+# Bỏ comment và cung cấp đường dẫn file hợp lệ để test IO.foreach
 
 
 class Post
@@ -46,3 +46,4 @@ end
 
 post1 = Post.new
 post1.print_author
+# EOF
