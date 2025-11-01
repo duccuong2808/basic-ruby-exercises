@@ -1,47 +1,20 @@
-IO.foreach("test.txt") {|block| puts block}
+puts "Đọc file foreach.txt:"
+IO.foreach("foreach.txt") { |line| puts line }
+puts "   "
 
+puts "Đọc file foreach.csv with index:"
+IO.foreach("foreach.txt").with_index do |line, index|
+  puts "#{index}: #{line}"
+end
+puts "   "
 
-class Post
-  attr_writer :title
-
-  def self.author
-    "Jimmy"
-  end
-
-  def full_title
-    "#{@title} by #{self.class.author}"
-  end
+puts "Đọc file foreach.txt with paragraph mode:"
+# Đọc theo block ký tự (paragraph mode)
+IO.foreach("foreach.txt", "") do |paragraph|
+  puts "Paragraph:"
+  puts paragraph
+  puts "   "
 end
 
-pst = Post.new
-pst.title = "Delicious Ham"
-puts pst.full_title
-
-
-class Post
-  attr_accessor :title
-
-  def self.replace_title(new_title)
-    title = new_title
-  end
-
-  def print_title
-    puts title
-  end
-end
-
-pst = Post.new
-pst.title = "Cream of Broccoli"
-pst.replace_title("Cream of Spinach")
-pst.class
-
-
-
-class Post
-  def print_author
-    puts "The author of all posts is Jimmy"
-  end
-end
-
-post1 = Post.new
-post1.print_author
+puts "Đọc file foreach.csv with separator:"
+IO.foreach("foreach.csv", ",") { |field| puts field }

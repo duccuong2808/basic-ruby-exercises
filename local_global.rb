@@ -1,21 +1,22 @@
-localvar = "hi_local"
+local_variable = "hi_local"
 $global = "hi_global"
+
 def method_local
-	localvar = 10
-	puts(localvar)
+	local_variable = 10
+	puts(local_variable)
 	puts($global)
 
 end
 def global_method
-	localvar = 500
+	local_variable = 500
 	$global = "hello_global"
-	puts(localvar)
+	puts(local_variable)
 	puts($global)
-
 end
+
 method_local
 print("localvar vẫn giữ nguyên giá trị: ")
-puts(localvar)
+puts(local_variable)
 global_method
 print("giá trị của global bị thay đổi: ")
 puts($global)
