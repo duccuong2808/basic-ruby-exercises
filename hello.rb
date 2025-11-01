@@ -5,12 +5,13 @@
 # - Định nghĩa một method/function
 # - Sử dụng puts để in ra màn hình
 # - Multi-line comments với =begin...=end
+# Trong Ruby, =begin và =end PHẢI được đặt ở đầu dòng (không có khoảng trắng hay tab phía trước)
 
 def saysomething
 	puts("Hello")
-	=begin
-	Đây là một comment
-	=end
+=begin
+Đây là một comment
+=end
 end
 
 # Gọi function

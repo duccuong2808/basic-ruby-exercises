@@ -1,177 +1,186 @@
 # Basic Ruby Exercises
 
-A comprehensive collection of Ruby programming exercises designed for beginners and intermediate learners. This repository covers fundamental Ruby concepts through practical, hands-on examples.
+A collection of practical Ruby examples for learning programming fundamentals. Each file demonstrates a specific concept with working code.
 
-## Prerequisites
-
-- Ruby 2.0 or higher
-- Basic understanding of programming concepts
-
-## How to Run
-
-Each file is a standalone Ruby script. To run any example:
+## Quick Start
 
 ```bash
+# Run any file
 ruby filename.rb
-```
 
-For example:
-```bash
+# Examples
 ruby hello.rb
 ruby array.rb
 ```
 
-## Topics Covered
+**Requirements**: Ruby 2.0 or higher
 
-### 1. Basic Syntax (🟢 Beginner)
+---
 
-- **hello.rb** - Function definitions and basic output with `puts`
-- **comment.rb** - Single-line (#) and multi-line (=begin...=end) comments
-- **string.rb** - String manipulation methods
-- **ruby1.rb** - Input/output with `gets`, `print`, and `puts`; string interpolation
-- **ruby2.rb** - Bitwise operations
+## 📚 Topics
 
-### 2. Control Flow (🟢 Beginner)
+### 1. Getting Started
 
-- **if.rb** - Conditional statements (`unless`, `else`)
-- **case.rb** - Case/when statements with ranges
-- **begin_end.rb** - BEGIN and END blocks for initialization and cleanup
-- **redo.rb** - Loop control with `redo` keyword
-- **retry.rb** - Exception handling with `retry` in rescue blocks
+Learn the basics: output, input, strings, and comments.
 
-### 3. Data Structures (🟢 Beginner)
+| File          | What it teaches               | Level |
+|---------------|-------------------------------|-------|
+| `hello.rb`    | Print text to screen          | 🟢    |
+| `ruby1.rb`    | Get user input and display it | 🟢    |
+| `comment.rb`  | Write comments in your code   | 🟢    |
+| `string.rb`   | Work with text                | 🟢    |
+| `test.rb`     | Special characters in strings | 🟢    |
 
-- **array.rb** - Array creation, iteration with `each`
-- **hash.rb** - Hash creation and element access
-- **hash_array.rb** - Sorting arrays of hashes
+### 2. Making Decisions
 
-### 4. Object-Oriented Programming (🟡 Intermediate)
+Control what your program does based on conditions.
 
-- **class.rb** - Basic class definition, initialize method, instance creation
-- **instance_var.rb** - Instance variables (@variable) and methods
-- **class_var.rb** - Class variables (@@variable) shared across instances
-- **class_variables.rb** - Class methods with `self`
+| File            | What it teaches               | Level |
+|-----------------|-------------------------------|-------|
+| `if.rb`         | Make choices with if/unless   | 🟢    |
+| `case.rb`       | Choose from multiple options  | 🟢    |
+| `begin_end.rb`  | Run code at start and end     | 🟢    |
 
-### 5. Variables & Scope (🟡 Intermediate)
+### 3. Handling Errors
 
-- **global_var.rb** - Global variables ($variable) accessible across classes
-- **local_global.rb** - Comparison between local and global variable scope
-- **double_colon.rb** - Scope resolution operator (::) for constants
-- **double_colon2.rb** - Advanced constant scoping with modules and classes
-- **define.rb** - Using `defined?` to check variable existence
+Deal with problems without crashing your program.
 
-### 6. Blocks, Procs & Methods (🟡 Intermediate)
+| File            | What it teaches                 | Level |
+|-----------------|---------------------------------|-------|
+| `exception.rb`  | Catch and handle errors         | 🟡    |
+| `retry.rb`      | Try again when something fails  | 🟡    |
 
-- **yield.rb** - Yielding to blocks from methods
-- **proc.rb** - Proc objects for reusable code blocks and closures
-- **foreach.rb** - File I/O with `IO.foreach`, class methods, and attr_accessor
+### 4. Collections
 
-### 7. Standard Library (🟢 Beginner)
+Store and organize multiple values.
 
-- **time.rb** - Working with Time objects and timestamps
-- **tempfile.rb** - Creating temporary files with the Tempfile library
-- **tmpdir.rb** - Working with temporary directories
-- **test.rb** - String escaping and special characters
+| File             | What it teaches                      | Level |
+|------------------|--------------------------------------|-------|
+| `array.rb`       | Lists of items                       | 🟢    |
+| `hash.rb`        | Key-value pairs (like a dictionary)  | 🟢    |
+| `hash_array.rb`  | Sort complex data                    | 🟢    |
 
-## Learning Path
+### 5. Loops
 
-### Recommended Order for Beginners:
+Repeat actions efficiently.
 
-1. Start with **Basic Syntax**: hello.rb → ruby1.rb → string.rb → comment.rb
-2. Learn **Control Flow**: if.rb → case.rb → begin_end.rb
-3. Master **Data Structures**: array.rb → hash.rb → hash_array.rb
-4. Explore **Object-Oriented Programming**: class.rb → instance_var.rb → class_var.rb
-5. Understand **Variables & Scope**: global_var.rb → local_global.rb → define.rb
-6. Advance to **Blocks & Procs**: yield.rb → proc.rb → foreach.rb
-7. Experiment with **Standard Library**: time.rb → tempfile.rb → tmpdir.rb
+| File          | What it teaches          | Level |
+|---------------|--------------------------|-------|
+| `redo.rb`     | Restart current loop     | 🟢    |
+| `foreach.rb`  | Read files line by line  | 🟡    |
 
-## Key Ruby Concepts
+### 6. Classes & Objects
 
-### Variables
-- **Local**: `variable` - scoped to method/block
-- **Instance**: `@variable` - scoped to object instance
-- **Class**: `@@variable` - shared across all instances
-- **Global**: `$variable` - accessible everywhere
+Create your own data types and organize code.
 
-### Special Operators
-- **`::`** - Scope resolution operator for accessing constants
-- **`defined?`** - Checks if a variable/method exists
+| File                  | What it teaches                       | Level |
+|-----------------------|---------------------------------------|-------|
+| `class.rb`            | Create objects with properties        | 🟡    |
+| `instance_var.rb`     | Give each object its own data         | 🟡    |
+| `class_var.rb`        | Share data between objects            | 🟡    |
+| `class_variables.rb`  | Methods that work on the class itself | 🟡    |
 
-### Blocks & Iterators
-- **Blocks**: Code enclosed in `do...end` or `{...}`
-- **yield**: Passes control to a block
-- **Proc**: Object wrapper for blocks
+### 7. Variables
 
-## Practice Exercises
+Understand where variables can be used.
 
-Many files contain working examples. Try modifying them:
+| File                | What it teaches                                     | Level |
+|---------------------|-----------------------------------------------------|-------|
+| `local_global.rb`   | Variables that work everywhere vs. limited areas    | 🟡    |
+| `global_var.rb`     | Variables accessible from anywhere                  | 🟡    |
+| `define.rb`         | Check if a variable exists                          | 🟡    |
+| `double_colon.rb`   | Access constants across code                        | 🟡    |
+| `double_colon2.rb`  | Advanced constant usage                             | 🟡    |
 
-1. **array.rb**: Add more elements and try different iterator methods (`.map`, `.select`, `.reject`)
-2. **class_var.rb**: Add more customers and observe the class variable counter
-3. **proc.rb**: Create your own mathematical operations using Procs
-4. **hash_array.rb**: Sort by different criteria (name instead of age)
+### 8. Blocks & Procs
 
-## Expected Output Examples
+Pass code around like data.
 
-### hello.rb
+| File        | What it teaches                   | Level |
+|-------------|-----------------------------------|-------|
+| `yield.rb`  | Pass a block of code to a method  | 🟡    |
+| `proc.rb`   | Save code blocks for reuse        | 🟡    |
+
+### 9. Useful Tools
+
+Standard Ruby features you'll use often.
+
+| File           | What it teaches            | Level |
+|----------------|----------------------------|-------|
+| `time.rb`      | Work with dates and times  | 🟢    |
+| `tempfile.rb`  | Create temporary files     | 🟢    |
+| `tmpdir.rb`    | Create temporary folders   | 🟢    |
+| `ruby2.rb`     | Binary operations          | 🟢    |
+
+---
+
+## 🎯 Learning Path
+
+**Complete beginners** - Start here:
+1. Getting Started (files 1-5)
+2. Making Decisions (files 6-8)
+3. Collections (files 9-11)
+4. Classes & Objects (files 12-15)
+
+**Have some experience?** - Jump to:
+- Handling Errors (files 16-17)
+- Blocks & Procs (files 18-19)
+
+---
+
+## 💡 Quick Reference
+
+### Variable Types
+```ruby
+name = "local"        # Only in current method/block
+@name = "instance"    # Each object has its own
+@@name = "class"      # Shared by all objects
+$name = "global"      # Works everywhere
+```
+
+### Common Patterns
+- `puts text` - Print with new line
+- `print text` - Print without new line
+- `"Hello #{name}"` - Insert variables into text
+- `gets.chomp` - Get user input (removes enter key)
+
+---
+
+## 📖 Output Examples
+
+**hello.rb**
 ```
 Hello
 ```
 
-### array.rb
+**array.rb**
 ```
 hay
 vay
 30 nam nam
-4
-5
-nhi
 ```
 
-### case.rb
-```
-B
-```
-
-### class_var.rb
+**class_var.rb**
 ```
 Total number of customers : 1
 Total number of customers : 2
 ```
 
-## Common Ruby Idioms
+---
 
-- Use `puts` for output with newline, `print` for output without newline
-- String interpolation: `"Hello #{name}"` instead of concatenation
-- Symbols (`:symbol`) are immutable and more efficient than strings for keys
-- Methods ending in `?` return boolean values
-- Methods ending in `!` modify the object in place
+## 🎓 Learning Tips
 
-## Tips for Learning
-
-1. Run each file and observe the output
-2. Modify the code and predict what will happen
-3. Add `puts` statements to understand program flow
-4. Experiment with Ruby's interactive console: `irb`
-5. Read the comments carefully - they explain key concepts
-
-## Resources
-
-- [Official Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
-- [Ruby Style Guide](https://rubystyle.guide/)
-- [Try Ruby in Browser](https://try.ruby-lang.org/)
-
-## Contributing
-
-Feel free to add more examples or improve existing ones. Make sure to:
-- Include clear comments
-- Follow Ruby naming conventions
-- Test your code before committing
-
-## License
-
-Free to use for learning purposes.
+1. **Run each file** and see what happens
+2. **Change the code** - break it, fix it, learn from it
+3. **Add print statements** to understand flow
+4. **Try `irb`** - Ruby's interactive console for experiments
 
 ---
 
-**Happy Learning! 💎**
+## 📚 Resources
+
+- [Official Ruby Docs](https://www.ruby-lang.org/en/documentation/)
+- [Try Ruby Online](https://try.ruby-lang.org/)
+- [Ruby Style Guide](https://rubystyle.guide/)
+
+---
