@@ -1,2 +1,2 @@
-people = {:name => "A",:age =>20}
+people = {:name => "A", :age => 20}
 puts people[:name]

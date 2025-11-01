@@ -1,5 +1,5 @@
 begin
-   file = open("array.rb")
+   file = open("array.rbs")
    if file
       puts "File opened successfully"
    end

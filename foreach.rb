@@ -1,5 +1,4 @@
-# Ví dụ: IO.foreach("test.txt"){|block| puts block}
-# Bỏ comment và cung cấp đường dẫn file hợp lệ để test IO.foreach
+IO.foreach("test.txt") {|block| puts block}
 
 
 class Post

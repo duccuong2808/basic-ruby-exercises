@@ -1,8 +1,8 @@
 puts "This is a comment"
-END{
+END {
 	puts " This is a comment,2"
 }
-BEGIN{
+BEGIN {
 	puts " This is a comment,3"
 }
 # chú ý END và BEGIN đều viết hoa

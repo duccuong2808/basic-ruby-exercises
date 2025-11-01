@@ -9,7 +9,7 @@ class Class2
 		puts "Global variable trong Class2 là #$global_variable"
 	end
 end
-classobj = Class1.new
-classobj.print_global
-class2obj = Class2.new
-class2obj.print_global
+class1_obj = Class1.new
+class1_obj.print_global
+class2_obj = Class2.new
+class2_obj.print_global
