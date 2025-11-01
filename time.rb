@@ -1,4 +1,4 @@
-time1 = Time.new
-puts "Thời gian hiện tại: " + time1.inspect
-time2 = Time.new
-puts "Thời gian hiện tại: " + time2.inspect
+time = Time.new
+puts "Thời gian hiện tại: " + time.inspect
+time_2 = Time.new
+puts "Thời gian hiện tại: " + time_2.inspect
