@@ -11,14 +11,14 @@ def time_proc(var)
 	return Proc.new {|n| n * var}
 end
 
-time1 = time_proc(4)	# 4 là giá trị var (hệ số nhân)
-time2 = time_proc(5)
-time3 = time_proc(6)
+proc_1 = time_proc(4)	# 4 là giá trị var (hệ số nhân)
+proc_2 = time_proc(5)
+proc_3 = time_proc(6)
 
-$x1 = time1.call(10)    # 10 * 4 = 40
-x2 = time2.call(12)     # 12 * 5 = 60
-x3 = time3.call($x1)    # 40 * 6 = 240
-x4 = time3.call(time2.call(time1.call(9)))  # (9*4)*5*6 = 1080
+$x1 = proc_1.call(10)    # 10 * 4 = 40
+x2 = proc_2.call(12)     # 12 * 5 = 60
+x3 = proc_3.call($x1)    # 40 * 6 = 240
+x4 = proc_3.call(proc_2.call(proc_1.call(9)))  # (9*4)*5*6 = 1080
 
 puts $x1
 puts x2

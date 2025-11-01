@@ -11,9 +11,9 @@ class Customer
 	end
 end
 # Tạo Object
-cust1 = Customer.new("1", "John", "Wisdom Apartments,Ludhiya")
-cust2 = Customer.new("2", "Poul", "New Empire road,Khandala")
+cust = Customer.new("1", "John", "Wisdom Apartments,Ludhiya")
+cust_2 = Customer.new("2", "Poul", "New Empire road,Khandala")
 # Gọi Methods
-cust1.display_details
+cust.display_details
 
-cust2.display_details
+cust_2.display_details

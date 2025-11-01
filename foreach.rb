@@ -13,9 +13,9 @@ class Post
   end
 end
 
-pst = Post.new
-pst.title = "Delicious Ham"
-puts pst.full_title
+post = Post.new
+post.title = "Delicious Ham"
+puts post.full_title
 
 
 class Post
@@ -30,10 +30,10 @@ class Post
   end
 end
 
-pst = Post.new
-pst.title = "Cream of Broccoli"
-pst.replace_title("Cream of Spinach")
-pst.class
+post = Post.new
+post.title = "Cream of Broccoli"
+post.replace_title("Cream of Spinach")
+post.class
 
 
 
@@ -43,5 +43,5 @@ class Post
   end
 end
 
-post1 = Post.new
-post1.print_author
+post = Post.new
+post.print_author
