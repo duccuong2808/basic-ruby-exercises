@@ -13,4 +13,3 @@ classobj = Class1.new
 classobj.print_global
 class2obj = Class2.new
 class2obj.print_global
-# EOF

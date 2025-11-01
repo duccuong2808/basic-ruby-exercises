@@ -17,4 +17,3 @@ cust2=Customer.new("2","Poul","New Empire road,Khandala")
 cust1.display_details()
 
 cust2.display_details()
-# EOF

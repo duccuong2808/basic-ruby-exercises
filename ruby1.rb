@@ -2,4 +2,3 @@ print("nhập tên của bạn: ") # print và puts đều in ra màn hình như
 name = gets()				# gets() hoặc gets : nhập từ bàn phím
 puts("Xin chào #{name}") 		# Trong #{a}, a là lệnh trên ruby
 puts("#{10+80}")
-# EOF

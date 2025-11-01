@@ -7,4 +7,3 @@ rescue
    fname = "existant_file"
    retry
 end
-# EOF

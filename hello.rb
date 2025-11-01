@@ -23,4 +23,3 @@ saysomething
 # 1. Tạo một function mới tên 'greet' nhận tham số name
 # 2. In ra "Xin chào, [name]!"
 # 3. Gọi function với tên của bạn
-# EOF

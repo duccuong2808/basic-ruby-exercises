@@ -6,4 +6,3 @@ BEGIN{
 	puts " This is a comment,3"
 }
 # chú ý END và BEGIN đều viết hoa
-# EOF

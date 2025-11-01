@@ -46,4 +46,3 @@ end
 
 post1 = Post.new
 post1.print_author
-# EOF

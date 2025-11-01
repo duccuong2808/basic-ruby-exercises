@@ -23,4 +23,3 @@ greet_message {|i| puts "Việt Nam Hồ Chí Minh #{i}"}
 # 1. Tạo một method 'repeat_action' yield 3 lần
 # 2. Truyền các giá trị khác nhau mỗi lần (1, 2, 3)
 # 3. Gọi nó với một block in ra "Lần lặp: [số]"
-# EOF

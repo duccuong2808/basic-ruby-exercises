@@ -35,4 +35,3 @@ puts x4
 # 1. Tạo một proc cộng số (thay vì nhân)
 # 2. Tạo một proc bình phương một số
 # 3. Kết hợp chúng lại: cộng 5, sau đó bình phương kết quả
-# EOF

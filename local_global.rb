@@ -19,4 +19,3 @@ puts(localvar)
 global_method
 print("giá trị của global bị thay đổi: ")
 puts($global)
-# EOF

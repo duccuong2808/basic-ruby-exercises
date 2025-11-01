@@ -3,4 +3,3 @@ require 'tempfile'
  	f.puts("Xin chào Việt Nam")
  	puts f.path
  	f.close()
-# EOF

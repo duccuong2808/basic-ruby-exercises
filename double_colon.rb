@@ -6,4 +6,3 @@ module Foo
 end
 puts MR_COUNT       # đây là global constant
 puts Foo::MR_COUNT  # đây là local "Foo" constant
-# EOF

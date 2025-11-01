@@ -13,4 +13,3 @@ rescue
   retry if attempts < 3
   puts "Thất bại sau 3 lần thử"
 end
-# EOF

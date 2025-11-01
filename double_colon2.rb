@@ -17,4 +17,3 @@ puts Object::CONST + Inside_two::CONST
 puts Inside_two::CONST + CONST
 puts Inside_one::CONST
 puts Inside_one::CONST.call + Inside_two::CONST
-# EOF

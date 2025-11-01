@@ -2,4 +2,3 @@ ary = ["hay","vay","30 nam nam",4,5,"nhi"]	# mảng được đặt trong [], v�
 ary.each do |i|
 	puts i
 end
-# EOF

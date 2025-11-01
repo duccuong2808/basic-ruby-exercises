@@ -6,4 +6,3 @@ class Polygon
 	end
 end
 puts Polygon.sides
-# EOF

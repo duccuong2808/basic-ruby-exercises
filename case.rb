@@ -11,4 +11,3 @@ case $result
 	else
 		puts "A"
 end
-# EOF

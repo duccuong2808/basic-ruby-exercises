@@ -21,4 +21,3 @@ cust2=Customer.new("2","Poul","New Empire road,Khandala")
 # Gọi Methods
 cust2.total_no_of_customers()
 cust1.total_no_of_customers()
-# EOF
