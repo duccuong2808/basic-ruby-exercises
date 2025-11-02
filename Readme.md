@@ -6,11 +6,7 @@ A collection of practical Ruby examples for learning programming fundamentals. E
 
 ```bash
 # Run any file
-ruby filename.rb
-
-# Examples
-ruby hello.rb
-ruby array.rb
+ruby src/filename.rb
 ```
 
 **Requirements**: Ruby 2.0 or higher
@@ -151,13 +147,6 @@ $name = "global"      # Works everywhere
 **hello.rb**
 ```
 Hello
-```
-
-**array.rb**
-```
-hay
-vay
-30 nam nam
 ```
 
 **class_var.rb**
